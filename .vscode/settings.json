@@ -1,18 +1,31 @@
 {
         "C_Cpp.intelliSenseEngine": "default",
         "idf.adapterTargetName": "esp32s3",
-        "idf.customExtraPaths": "E:\\Espressif\\tools\\xtensa-esp-elf-gdb\\14.2_20240403\\xtensa-esp-elf-gdb\\bin;E:\\Espressif\\tools\\riscv32-esp-elf-gdb\\14.2_20240403\\riscv32-esp-elf-gdb\\bin;E:\\Espressif\\tools\\xtensa-esp-elf\\esp-13.2.0_20230928\\xtensa-esp-elf\\bin;E:\\Espressif\\tools\\riscv32-esp-elf\\esp-13.2.0_20230928\\riscv32-esp-elf\\bin;E:\\Espressif\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;E:\\Espressif\\tools\\cmake\\3.24.0\\bin;E:\\Espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240318\\openocd-esp32\\bin;E:\\Espressif\\tools\\ninja\\1.11.1;E:\\Espressif\\tools\\idf-exe\\1.0.3;E:\\Espressif\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;E:\\Espressif\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;E:\\Espressif\\tools\\esp-rom-elfs\\20230320",
+        "idf.customExtraPaths": "e:\\Espressif5.1.4\\tools\\xtensa-esp-elf-gdb\\12.1_20231023\\xtensa-esp-elf-gdb\\bin;e:\\Espressif5.1.4\\tools\\riscv32-esp-elf-gdb\\12.1_20231023\\riscv32-esp-elf-gdb\\bin;e:\\Espressif5.1.4\\tools\\xtensa-esp32-elf\\esp-12.2.0_20230208\\xtensa-esp32-elf\\bin;e:\\Espressif5.1.4\\tools\\xtensa-esp32s2-elf\\esp-12.2.0_20230208\\xtensa-esp32s2-elf\\bin;e:\\Espressif5.1.4\\tools\\xtensa-esp32s3-elf\\esp-12.2.0_20230208\\xtensa-esp32s3-elf\\bin;e:\\Espressif5.1.4\\tools\\riscv32-esp-elf\\esp-12.2.0_20230208\\riscv32-esp-elf\\bin;e:\\Espressif5.1.4\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;e:\\Espressif5.1.4\\tools\\cmake\\3.24.0\\bin;e:\\Espressif5.1.4\\tools\\openocd-esp32\\v0.12.0-esp32-20230921\\openocd-esp32\\bin;e:\\Espressif5.1.4\\tools\\ninja\\1.10.2;e:\\Espressif5.1.4\\tools\\idf-exe\\1.0.3;e:\\Espressif5.1.4\\tools\\ccache\\4.8\\ccache-4.8-windows-x86_64;e:\\Espressif5.1.4\\tools\\dfu-util\\0.11\\dfu-util-0.11-win64;e:\\Espressif5.1.4\\tools\\esp-rom-elfs\\20230320",
         "idf.customExtraVars": {
-                "OPENOCD_SCRIPTS": "E:\\Espressif\\tools\\openocd-esp32\\v0.12.0-esp32-20240318/openocd-esp32/share/openocd/scripts",
+                "OPENOCD_SCRIPTS": "e:\\Espressif5.1.4\\tools\\openocd-esp32\\v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
                 "IDF_CCACHE_ENABLE": "1",
-                "ESP_ROM_ELF_DIR": "E:\\Espressif\\tools\\esp-rom-elfs\\20230320/"
+                "ESP_ROM_ELF_DIR": "e:\\Espressif5.1.4\\tools\\esp-rom-elfs\\20230320/"
         },
-        "idf.espIdfPathWin": "E:/Espressif/frameworks/esp-idf-v5.2.2/",
+        "idf.espIdfPathWin": "e:\\Espressif5.1.4\\frameworks\\esp-idf-v5.1.4",
         "idf.openOcdConfigs": [
-                "board/esp32s3-bridge.cfg"
+                "interface/ftdi/esp32_devkitj_v1.cfg",
+                "target/esp32s3.cfg"
         ],
-        "idf.portWin": "COM11",
-        "idf.pythonBinPathWin": "E:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe",
-        "idf.toolsPathWin": "E:\\Espressif",
-        "idf.flashType": "UART"
+        "idf.portWin": "COM15",
+        "idf.pythonBinPathWin": "e:\\Espressif5.1.4\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
+        "idf.toolsPathWin": "e:\\Espressif5.1.4",
+        "idf.flashType": "UART",
+        "files.associations": {
+                "*.c": "c",
+                "dts": "dts",
+                "disp_driver.h": "c",
+                "esp_mac.h": "c",
+                "disp_spi.h": "c",
+                "span": "cpp",
+                "algorithm": "cpp",
+                "lv_timer.h": "c",
+                "lv_observer.h": "c"
+        },
+        "idf.gitPathWin": "e:\\Espressif5.1.4\\tools\\idf-git\\2.39.2\\cmd\\git.exe"
 }
