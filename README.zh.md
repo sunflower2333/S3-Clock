@@ -54,3 +54,6 @@
 
 ### 开源
 硬件开源在[oshwhub](https://oshwhub.com/sunflower2333/2024clock)立创开源平台，软件开源在Github。
+
+## 参考
+- Redstonee's [Stupid Clock](https://github.com/redstonee/StupidClock)

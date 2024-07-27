@@ -21,3 +21,6 @@ Espressif ESP32-S3-WROOM-1-N16R8 module.
 - DS1302 RTC 
 - RGB
 - UART2USB & ESP USB
+
+## Reference
+- Redstonee's [Stupid Clock](https://github.com/redstonee/StupidClock)
